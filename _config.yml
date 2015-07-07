@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: Patrick's Blog
 description: Blogging about stuffs
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
@@ -9,13 +9,13 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://lykegenes.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
 url:            'http://your-blog-url.example.com'
-author:         'Your Name'
+author:         'Patrick Samson'
 authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:year/:title/
