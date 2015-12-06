@@ -40,7 +40,7 @@ Here are a few tools that can help us make sure our configuration is secure :
 
 this is a test :
 
-- blah
-- blah
+-blah
+-blah
 
 
