@@ -32,7 +32,6 @@ To renew it, simply run the command again. You can also create a weekly Cron job
 
 Here are a few tools that can help us make sure our configuration is secure :
 
-
 - [cipherli.st](https://cipherli.st) - They keep a collection of the latest, most secure SSL settings for most web servers.
 - [SSL Labs Server Test](https://www.ssllabs.com/ssltest/index.html) - A complete SSL certificate test of your domains. They even suggest recommendations of what to improve.
 - [SSL Decoder](https://ssldecoder.org) - Another online SSL test utility
