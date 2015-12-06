@@ -11,22 +11,22 @@ So, we need an efficient (automated) way to register and renew our certificates.
 I stumbled upon a side-project of one of the official client's main contributors : [simp_le](https://github.com/kuba/simp_le) It is an (almost) full-featured Let's Encrypt client, and mush more straightforward to use.
 
 Clone it
-```
+{% highlight bash %}
 git clone https://github.com/kuba/simp_le
 cd simp_le
-```
+{% endhighlight %}
 
 Install it
-```
+{% highlight bash %}
 sudo ./bootstrap.sh
 ./venv.sh
 . venv/bin/activate
-```
+{% endhighlight %}
 
 and create a certificate
-```
+{% highlight bash %}
 venv/bin/simp_le -d exemple.com:/var/www/website/root/ -f key.pem -f cert.pem -f fullchain.pem
-```
+{% endhighlight %}
 
 To renew it, simply run the command again. You can also create a weekly Cron job. The certificate will only be replaced if necessary (close to it's expiration date).
 
