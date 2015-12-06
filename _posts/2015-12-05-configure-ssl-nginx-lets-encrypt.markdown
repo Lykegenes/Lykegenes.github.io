@@ -31,7 +31,7 @@ venv/bin/simp_le -d exemple.com:/var/www/website/root/ -f key.pem -f cert.pem -f
 To renew it, simply run the command again. You can also create a weekly Cron job. The certificate will only be replaced if necessary (close to it's expiration date).
 
 Here are a few tools that can help us make sure our configuration is secure :
-- [cipherli.st](https://cipherli.st) - They keep a collection of the latest, most secure SSL settings for most web servers.
-- [SSL Labs Server Test](https://www.ssllabs.com/ssltest/index.html) - A complete SSL certificate test of your domains. They even suggest recommendations of what to improve.
-- [SSL Decoder](https://ssldecoder.org) - Another online SSL test utility
-- [Certificate Expiry Monitor](https://certificatemonitor.org) - This project will scan your domain's certificate daily and warn you when it's about to expire
+* [cipherli.st](https://cipherli.st) - They keep a collection of the latest, most secure SSL settings for most web servers.
+* [SSL Labs Server Test](https://www.ssllabs.com/ssltest/index.html) - A complete SSL certificate test of your domains. They even suggest recommendations of what to improve.
+* [SSL Decoder](https://ssldecoder.org) - Another online SSL test utility
+* [Certificate Expiry Monitor](https://certificatemonitor.org) - This project will scan your domain's certificate daily and warn you when it's about to expire
