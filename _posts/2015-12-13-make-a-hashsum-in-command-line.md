@@ -1,7 +1,7 @@
 ---
 title:  "Make a hashsum using command line"
 date:   2015-12-13 15:00:00
-description: Make a hashsum using command line
+description: Make a SHA 256 hashsum of a string in command line
 ---
 
 
