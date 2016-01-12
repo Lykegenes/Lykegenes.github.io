@@ -12,6 +12,7 @@ I stumbled upon a side-project of one of the official client's main contributors
 
 Clone it
 {% highlight bash %}
+cd /opt
 git clone https://github.com/kuba/simp_le
 cd simp_le
 {% endhighlight %}
@@ -20,12 +21,12 @@ Install it
 {% highlight bash %}
 sudo ./bootstrap.sh
 ./venv.sh
-. venv/bin/activate
+ln -s $(pwd)/venv/bin/simp_le /usr/local/sbin/simp_le
 {% endhighlight %}
 
 and create a certificate
 {% highlight bash %}
-venv/bin/simp_le -d exemple.com:/var/www/website/root/ -f key.pem -f cert.pem -f fullchain.pem
+simp_le -d exemple.com:/var/www/website/root/ -f key.pem -f cert.pem -f fullchain.pem
 {% endhighlight %}
 
 To renew it, simply run the command again. You can also create a weekly Cron job. The certificate will only be replaced if necessary (close to it's expiration date).
