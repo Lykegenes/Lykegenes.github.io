@@ -29,7 +29,10 @@ and create a certificate
 simp_le -d exemple.com:/var/www/website/root/ -f key.pem -f cert.pem -f fullchain.pem
 {% endhighlight %}
 
-To renew it, simply run the command again, adding one more parameter : `-f account_key.json`. 
+To renew it, simply run the command again, adding one more parameter : 
+{% highlight bash %}
+-f account_key.json`
+{% endhighlight %}. 
 You can also create a weekly Cron job. The certificate will only be replaced if necessary (close to it's expiration date).
 
 Here are a few tools that can help us make sure our configuration is secure :
