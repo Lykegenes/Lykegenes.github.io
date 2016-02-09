@@ -4,7 +4,7 @@ meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 aboutPage: true
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 
 paginate: 20
@@ -14,7 +14,7 @@ google_analytics: 'UA-64901506-1'
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'http://lykegenes.github.io'
 author:         'Patrick Samson'
 authorTwitter:  'SamsonPatrick'
 
