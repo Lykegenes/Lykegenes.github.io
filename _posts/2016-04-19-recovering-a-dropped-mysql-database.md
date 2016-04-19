@@ -20,12 +20,12 @@ git clone https://github.com/chhabhaiya/undrop-for-innodb.git
 {% endhighlight %}
 
 Now, build it :
-{% highlight bash %}
+```
 // sudo apt-get install make gcc flex bison
 
 cd undrop-for-innodb
 make
-{% endhighlight %}
+```
 
 Next step is to extract the InnoDB pages from the `ibdata1` file :
 {% highlight bash %}
