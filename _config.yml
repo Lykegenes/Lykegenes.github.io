@@ -5,6 +5,9 @@ meta_description: "Your New Jekyll Site, Blogging about stuffs"
 aboutPage: true
 
 markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
 highlighter: rouge
 
 paginate: 20
