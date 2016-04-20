@@ -41,7 +41,7 @@ The first column after the table name will contain the `table ID`, 1248 in my ca
 
 Using that `table ID, we search for the `PRIMARY Index ID` (filter using grep) :
 {% highlight bash %}
-./c_parser -4Df pages-ibdata1/FIL_PAGE_INDEX/0000000000000003.page -t dictionary /SYS_INDEXES.sql | grep 1248
+./c_parser -4Df pages-ibdata1/FIL_PAGE_INDEX/0000000000000003.page -t dictionary/SYS_INDEXES.sql | grep 1248
 {% endhighlight %}
 You might see multiple indexes. We need the PRIMARY one. (4904 in my case). Remember it.
 It is the column BEFORE the index name ("PRIMARY").
