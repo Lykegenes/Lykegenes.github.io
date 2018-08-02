@@ -9,7 +9,7 @@ First, make sure to unmount your Sparsebundle image.
 
 We can now resize the file  :
 {% highlight bash %}
-hdiutil resize -size 2g ./my.sparsrebundle
+hdiutil resize -size 2g ./my.sparsebundle
 {% endhighlight %}
 
 Now, mount it, and find out the identifier of the APFS Container you want to rewrite.
